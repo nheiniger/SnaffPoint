@@ -10,14 +10,14 @@ There are actually 2 tools:
 
 ### GetBearerToken
 Nothing fancy, run the tool as follows:
-´´´
+```
 GetBearerToken.exe https://yoururl.sharepoint.com
-´´´
+```
 Authenticate successfully and you should get a Bearer token to use in SnaffPoint. This is mostly the code of PNP-Tools (see credits below).
 
 ### SnaffPoint
 Have a look at the help menu here:
-´´´
+```
 Usage: SnaffPoint.exe -u URL -t JWT [OPTIONS]
 
 -h, --help              This is me :)
@@ -36,9 +36,9 @@ Single query mode:
 -q, --query             Query search string
 -l, --fql               Enables FQL (default is KQL)
 -r, --refinement-filter Adds a refinement filter
-´´´
+```
 
-Note that the ´preset´ folder contains many presets that you may or may not want to test on your environment. Have a look at them, and please submit a pull request if you have ideas for other presets. The preset mode is probably what you want to run against your own company. On the other hand, if you need to run the C# assembly in memory, you probably want to specify a single query to avoid the presets on disk and have more control on what you search.
+Note that the `preset` folder contains many presets that you may or may not want to test on your environment. Have a look at them, and please submit a pull request if you have ideas for other presets. The preset mode is probably what you want to run against your own company. On the other hand, if you need to run the C# assembly in memory, you probably want to specify a single query to avoid the presets on disk and have more control on what you search.
 
 ## Due credits
 @mikeloss and @sh3r4_hax for Snaffler (https://github.com/SnaffCon/Snaffler) from which I borrowed the name and adapted many of the rules.
