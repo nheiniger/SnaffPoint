@@ -1,0 +1,7 @@
+<SearchPreset xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>FirefoxLoginsJson</Name>
+  <Request>
+    <QueryText>filename:logins.json</QueryText>
+    <SortList>LastModifiedTime:descending,Rank:descending</SortList>
+  </Request>
+</SearchPreset>

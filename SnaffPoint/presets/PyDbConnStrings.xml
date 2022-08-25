@@ -1,0 +1,9 @@
+<SearchPreset xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>PyDbConnStrings</Name>
+  <Request>
+    <QueryText>OR("mysql.connector.connect","psycopg2.connect")</QueryText>
+    <EnableFql>true</EnableFql>
+    <RefinementFilters>filetype:or("py")</RefinementFilters>
+    <SortList>LastModifiedTime:descending,Rank:descending</SortList>
+  </Request>
+</SearchPreset>

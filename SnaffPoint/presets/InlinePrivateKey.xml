@@ -1,0 +1,9 @@
+<SearchPreset xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>InlinePrivateKey</Name>
+  <Request>
+    <QueryText>NEAR(BEGIN, OR(RSA, OPENSSH, DSA, EC, PGP), PRIVATE, KEY, n=1)</QueryText>
+    <EnableFql>true</EnableFql>
+    <RefinementFilters>filetype:or("yaml","yml","toml","xml","json","config","ini","inf","cnf","conf","properties","env","dist","txt","sql","log","sqlite","sqlite3","fdb","tfvars","js","cjs","mjs","cs","ts","tsx","ls","es6","es","php","phtml","inc","php3","php5","php7","ps1","psd1","psm1","py","rb","netrc","exports","functions","extra","npmrc","env","bashrc","profile","zshrc","bash_history","zsh_history","sh_history","zhistory","irb_history")</RefinementFilters>
+    <SortList>LastModifiedTime:descending,Rank:descending</SortList>
+  </Request>
+</SearchPreset>

@@ -1,0 +1,9 @@
+<SearchPreset xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>JavaDbConnStrings</Name>
+  <Request>
+    <QueryText>NEAR("getConnection*", "jdbc:", n=2)</QueryText>
+    <EnableFql>true</EnableFql>
+    <RefinementFilters>filetype:or("jsp","do","java","cfm")</RefinementFilters>
+    <SortList>LastModifiedTime:descending,Rank:descending</SortList>
+  </Request>
+</SearchPreset>

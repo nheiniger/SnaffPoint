@@ -1,0 +1,8 @@
+<SearchPreset xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>ShellHistoryByName</Name>
+  <Request>
+    <QueryText>filename:OR(".bash_history",".zsh_history",".sh_history","zhistory",".irb_history","ConsoleHost_History.txt")</QueryText>
+    <EnableFql>true</EnableFql>
+    <SortList>LastModifiedTime:descending,Rank:descending</SortList>
+  </Request>
+</SearchPreset>

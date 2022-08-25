@@ -1,0 +1,8 @@
+<SearchPreset xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>CSharpViewstateKeys</Name>
+  <Request>
+    <QueryText>*validationkey* OR *decryptionkey*</QueryText>
+    <RefinementFilters>filetype:or("aspx","ashx","asmx","asp","cshtml","cs","ascx","config")</RefinementFilters>
+    <SortList>LastModifiedTime:descending,Rank:descending</SortList>
+  </Request>
+</SearchPreset>

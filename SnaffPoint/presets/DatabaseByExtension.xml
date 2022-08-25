@@ -1,0 +1,9 @@
+<SearchPreset xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>DatabaseByExtension</Name>
+  <Request>
+    <QueryText>*</QueryText>
+    <EnableFql>true</EnableFql>
+    <RefinementFilters>filetype:or("mdf","sdf","sqldump")</RefinementFilters>
+    <SortList>LastModifiedTime:descending,Rank:descending</SortList>
+  </Request>
+</SearchPreset>

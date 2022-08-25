@@ -1,0 +1,9 @@
+<SearchPreset xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>RemoteAccessConfByExtension</Name>
+  <Request>
+    <QueryText>*</QueryText>
+    <EnableFql>true</EnableFql>
+    <RefinementFilters>filetype:or("rdg","rtsz","rtsx","ovpn")</RefinementFilters>
+    <SortList>LastModifiedTime:descending,Rank:descending</SortList>
+  </Request>
+</SearchPreset>

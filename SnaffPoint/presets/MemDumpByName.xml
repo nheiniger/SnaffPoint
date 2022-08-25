@@ -1,0 +1,8 @@
+<SearchPreset xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>MemDumpByName</Name>
+  <Request>
+    <QueryText>filename:or(MEMORY.DMP,hiberfil.sys,lsass.dmp,lsass.exe.dmp)</QueryText>
+    <EnableFql>true</EnableFql>
+    <SortList>LastModifiedTime:descending,Rank:descending</SortList>
+  </Request>
+</SearchPreset>

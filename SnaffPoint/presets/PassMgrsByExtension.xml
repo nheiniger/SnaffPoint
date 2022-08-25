@@ -1,0 +1,9 @@
+<SearchPreset xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>PassMgrsByExtension</Name>
+  <Request>
+    <QueryText>*</QueryText>
+    <EnableFql>true</EnableFql>
+    <RefinementFilters>filetype:or("kdbx","kdb","psafe3","kwallet","keychain","agilekeychain","cred")</RefinementFilters>
+    <SortList>LastModifiedTime:descending,Rank:descending</SortList>
+  </Request>
+</SearchPreset>

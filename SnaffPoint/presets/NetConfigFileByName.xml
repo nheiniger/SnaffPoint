@@ -1,0 +1,8 @@
+<SearchPreset xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>NetConfigFileByName</Name>
+  <Request>
+    <QueryText>filename:OR("running-config.cfg","startup-config.cfg","running-config","startup-config")</QueryText>
+    <EnableFql>true</EnableFql>
+    <SortList>LastModifiedTime:descending,Rank:descending</SortList>
+  </Request>
+</SearchPreset>

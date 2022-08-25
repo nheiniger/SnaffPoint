@@ -1,0 +1,8 @@
+<SearchPreset xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>DbMgtConfigByName</Name>
+  <Request>
+    <QueryText>filename:OR("SqlStudio.bin",".mysql_history",".psql_history",".pgpass",".dbeaver-data-sources.xml","credentials-config.json","dbvis.xml","robomongo.json")</QueryText>
+    <EnableFql>true</EnableFql>
+    <SortList>LastModifiedTime:descending</SortList>
+  </Request>
+</SearchPreset>
