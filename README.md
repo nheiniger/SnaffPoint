@@ -43,4 +43,4 @@ Note that the `preset` folder contains many presets that you may or may not want
 ## Due credits
 @mikeloss and @sh3r4_hax for Snaffler (https://github.com/SnaffCon/Snaffler) from which I borrowed the name and adapted many of the rules.
 
-The contibutors of PNP-Tools, all the code interacting with SharePoint is ~~ripped off~~ inspired from their Search.QueryTool project: https://github.com/pnp/PnP-Tools/tree/master/Solutions/SharePoint.Search.QueryTool/SearchQueryTool
+The contibutors of PNP-Tools, all the code interacting with SharePoint is ~~ripped off~~ inspired by their Search.QueryTool project: https://github.com/pnp/PnP-Tools/tree/master/Solutions/SharePoint.Search.QueryTool/SearchQueryTool
