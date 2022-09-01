@@ -41,6 +41,9 @@ Single query mode:
 Note that the `preset` folder contains many presets that you may or may not want to test on your environment. Have a look at them, and please submit a pull request if you have ideas for other presets. The preset mode is probably what you want to run against your own company. On the other hand, if you need to run the C# assembly in memory, you probably want to specify a single query to avoid the presets on disk and have more control on what you search.
 
 ## Due credits
-@mikeloss and @sh3r4_hax for Snaffler (https://github.com/SnaffCon/Snaffler) from which I borrowed the name and adapted many of the rules.
+[@mikeloss](https://twitter.com/mikeloss) and [@sh3r4_hax](https://twitter.com/sh3r4_hax) for Snaffler (https://github.com/SnaffCon/Snaffler) from which I borrowed the name and adapted many of the rules.
 
 The contibutors of PNP-Tools, all the code interacting with SharePoint is ~~ripped off~~ inspired by their Search.QueryTool project: https://github.com/pnp/PnP-Tools/tree/master/Solutions/SharePoint.Search.QueryTool/SearchQueryTool
+
+## Anything else
+You can contact me on Twitter: [@nicolasheiniger](https://twitter.com/NicolasHeiniger)
