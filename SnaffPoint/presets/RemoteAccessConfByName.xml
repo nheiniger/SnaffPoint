@@ -1,7 +1,7 @@
 <SearchPreset xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>RemoteAccessConfByName</Name>
   <Request>
-    <QueryText>filename:OR("mobaxterm.ini","mobaxterm backup.zip","confCons.xml">
+    <QueryText>filename:OR("mobaxterm.ini","mobaxterm backup.zip","confCons.xml")</QueryText>
     <EnableFql>true</EnableFql>
     <SortList>LastModifiedTime:descending,Rank:descending</SortList>
   </Request>
