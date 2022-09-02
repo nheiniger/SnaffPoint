@@ -220,7 +220,6 @@ Single query mode:
 -q, --query             Query search string
 -l, --fql               Enables FQL (default is KQL)
 -r, --refinement-filter Adds a refinement filter");
-            Environment.Exit(1);
         }
 
         static void Main(string[] args)
@@ -240,10 +239,12 @@ Single query mode:
                         if (args[entry.index + 1].StartsWith("-"))
                         {
                             PrintHelp();
+                            return;
                         }
                         if (! int.TryParse(args[entry.index + 1], out MaxRows))
                         {
                             PrintHelp();
+                            return;
                         }
                         break;
                     // preset path, load presets
@@ -252,6 +253,7 @@ Single query mode:
                         if (args[entry.index + 1].StartsWith("-"))
                         {
                             PrintHelp();
+                            return;
                         }
                         PresetPath = args[entry.index + 1];
                         break;
@@ -261,6 +263,7 @@ Single query mode:
                         if (args[entry.index + 1].StartsWith("-"))
                         {
                             PrintHelp();
+                            return;
                         }
                         SingleQueryText = args[entry.index + 1];
                         break;
@@ -270,6 +273,7 @@ Single query mode:
                         if (args[entry.index + 1].StartsWith("-"))
                         {
                             PrintHelp();
+                            return;
                         }
                         RefinementFilters = args[entry.index + 1];
                         break;
@@ -279,6 +283,7 @@ Single query mode:
                         if (args[entry.index + 1].StartsWith("-"))
                         {
                             PrintHelp();
+                            return;
                         }
                         BearerToken = "Bearer " + args[entry.index + 1];
                         break;
@@ -288,6 +293,7 @@ Single query mode:
                         if (args[entry.index + 1].StartsWith("-"))
                         {
                             PrintHelp();
+                            return;
                         }
                         SPUrl = args[entry.index + 1];
                         break;
@@ -295,7 +301,7 @@ Single query mode:
                     case "-h":
                     case "--help":
                         PrintHelp();
-                        break;
+                        return;
                 }
             }
 
@@ -303,6 +309,7 @@ Single query mode:
             if (SPUrl == null || BearerToken == null)
             {
                 PrintHelp();
+                return;
             }
 
             // if you specify a query I assume you want an answer, otherwise I have some defaults
