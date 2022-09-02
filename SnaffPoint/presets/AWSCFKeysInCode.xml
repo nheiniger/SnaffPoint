@@ -3,7 +3,7 @@
   <Request>
     <QueryText>OR(NEAR(OR("X-Amz-Credential", "aws_key", "awskey", "aws.key", "aws-key", "*aws*"), OR("AKIA*", "AGPA*", "AIPA*", "AROA*", "ANPA*", "ANVA*", "ASIA*"), n=10), "CF-Access-Client-Secret")</QueryText>
     <EnableFql>true</EnableFql>
-    <RefinementFilters>filetype:or("yaml","yml","toml","xml","json","config","ini","inf","cnf","conf","properties","env","dist","txt","sql","log","sqlite","sqlite3","fdb","tfvars","js","cjs","mjs","cs","ts","tsx","ls","es6","es","php","phtml","inc","php3","php5","php7","ps1","psd1","psm1","py","rb","netrc","exports","functions","extra","npmrc","env","bashrc","profile","zshrc","bash_history","zsh_history","sh_history","zhistory","irb_history")</RefinementFilters>
+    <RefinementFilters>filetype:or("yaml","yml","toml","xml","json","config","ini","inf","cnf","conf","properties","env","dist","txt","sql","log","sqlite","sqlite3","fdb","tfvars","js","cjs","mjs","hpp","cpp","cs","ts","tsx","ls","es6","es","php","phtml","inc","php3","php5","php7","ps1","psd1","psm1","py","rb","netrc","exports","functions","extra","npmrc","env","bashrc","profile","zshrc","bash_history","zsh_history","sh_history","zhistory","irb_history")</RefinementFilters>
     <SortList>LastModifiedTime:descending,Rank:descending</SortList>
   </Request>
 </SearchPreset>
