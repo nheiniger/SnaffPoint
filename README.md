@@ -1,7 +1,7 @@
 # SnaffPoint
 
 ## What is it
-SnaffPoint is a tool for pointesters who are in need of some sweetness in this world. It should help you find sensitive files available on SharePoint online and on shared OneDrive files for your company (or your customer).
+SnaffPoint is a tool for pentesters who are in need of some sweetness in this world. It should help you find sensitive files available on SharePoint online and on shared OneDrive files for your company (or your customer).
 
 ## How does it work
 There are actually 2 tools:
