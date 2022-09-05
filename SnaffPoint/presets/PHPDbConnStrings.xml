@@ -3,7 +3,7 @@
   <Request>
     <QueryText>OR(mysql_connect,mysql_pconnect,mysql_change_user,pg_connect,pg_pconnect)</QueryText>
     <EnableFql>true</EnableFql>
-    <RefinementFilters>filetype:or("php","phtml","inc","php3","php5","php7")
+    <RefinementFilters>filetype:or("php","phtml","inc","php3","php5","php7")</RefinementFilters>
     <SortList>LastModifiedTime:descending,Rank:descending</SortList>
   </Request>
 </SearchPreset>
