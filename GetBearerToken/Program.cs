@@ -41,17 +41,10 @@ namespace GetBearerToken
             }
             url = args[0];
 
-            try
-            {
-                var token = AdalLogin(url);
-                token.Wait();
-                Console.WriteLine(_adalToken);
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine("Something went horribly wrong, I'm so sorry: " + e.Message);
-                return 1;
-            }
+            var token = AdalLogin(url);
+            token.Wait();
+            Console.WriteLine(_adalToken);
+            
             return 0;
         }
     }
